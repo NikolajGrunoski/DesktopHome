@@ -12,4 +12,5 @@
 //     i profit od restoranot
 
 
-var hotel = new hotel('Gorce Dve');
+var hotel = new Hotel('Gorce Dve');
+hotel.rooms();
