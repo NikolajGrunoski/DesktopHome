@@ -2,13 +2,27 @@ function Hotel(hotelName){
     this.name = name;
 
     this.rooms = function(){
-        for (var i = 0; i < 10; i++) {
+       
+        for (var i = 0; i < 30; i++) {
             if (i % 2 === 0) {
-                var firstRoom = new Room(i, true);
-               // this.rooms.push(firstRoom);
+               return true;
+              
             } else {
-                var secondRoom = new Room(i, false);
-               // this.rooms.push(secondRoom);
+                return false;
+            }
+
+        }
+    }
+ 
+
+
+    this.employes = function() {
+        var newEmployes = 0;
+        for (var i = 0; i < 30; i++) {
+            if (i % 3 === 0) {
+               return newEmployes + 1;
+            } else {
+                return newEmployes;
             }
 
         }

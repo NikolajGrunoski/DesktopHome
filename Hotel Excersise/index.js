@@ -14,3 +14,4 @@
 
 var hotel = new Hotel('Gorce Dve');
 hotel.rooms();
+hotel.employes();

@@ -1,5 +1,5 @@
-function Room(name, isTaken) {
+function Room(isTaken) {
 
-    this.name = name;
+    // this.name = name;
     this.isTaken = isTaken;
 }
