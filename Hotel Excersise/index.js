@@ -12,6 +12,6 @@
 //     i profit od restoranot
 
 
-var hotel = new Hotel('Gorce Dve');
-hotel.rooms();
-hotel.employes();
+//Hotel.roomsOcupied();
+
+console.log(roomsOcupied);
